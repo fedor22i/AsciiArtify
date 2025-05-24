@@ -20,6 +20,7 @@
 ## Переваги та недоліки
 
 ### Minikube
+![demo](https://github.com/user-attachments/assets/52486353-4040-47f3-865f-14e5aa72ae7b)
 
 **Переваги:**
 
