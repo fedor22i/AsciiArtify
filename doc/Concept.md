@@ -38,6 +38,8 @@
 
 ### Kind
 
+![demo2](https://github.com/user-attachments/assets/dc7b1590-16af-44f6-944d-3f7b81310ea8)
+
 **Переваги:**
 
 - Ідеальний для CI середовища.
