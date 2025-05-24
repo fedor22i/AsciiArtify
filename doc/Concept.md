@@ -20,6 +20,7 @@
 ## Переваги та недоліки
 
 ### Minikube
+
 ![demo](https://github.com/user-attachments/assets/52486353-4040-47f3-865f-14e5aa72ae7b)
 
 **Переваги:**
@@ -51,6 +52,8 @@
 
 ### K3d
 
+![demo1](https://github.com/user-attachments/assets/51962e46-f241-4a40-a509-cded1361b1ba)
+
 **Переваги:**
 
 - Легка вага (на базі K3s).
@@ -63,22 +66,6 @@
 - Більше ручного налаштування для складних сценаріїв.
 - Також покладається на Docker (може працювати з Podman з обмеженнями).
 
-## Демонстрація: Розгортання Hello World у K3d
-
-**Рекомендований інструмент: K3d** — завдяки простоті, швидкості та оптимальності для PoC.
-
-```bash
-# Встановлення k3d (Linux/macOS)
-curl -s https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
-
-# Створення кластеру
-k3d cluster create hello-world-cluster
-
-# Деплой простого застосунку
-kubectl create deployment hello --image=nginxdemos/hello
-kubectl expose deployment hello --type=LoadBalancer --port=80
-
-# Отримати URL
-k3d kubeconfig get hello-world-cluster
-kubectl get svc
+## Рекомендований інструмент: 
+**K3d** — завдяки простоті, швидкості та оптимальності для PoC.
 
