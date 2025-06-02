@@ -3,6 +3,8 @@
 # Встановлення k3d (Linux/macOS)
 ```
 curl -s https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
+
+k3d cluster create argo
 ```
 
 # Встановлення ArgoCD (https://argo-cd.readthedocs.io/en/stable/)
