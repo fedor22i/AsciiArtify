@@ -62,7 +62,7 @@ kubectl port-forward -n demo svc/envoy-demo-eg-0d68e7be 8081:80
 wget -O /tmp/g.png https://marketer.ua/wp-content/uploads/2017/09/google-ranking-factors.png
 curl -H "Host: demo.example.com" -F 'image=@/tmp/g.png' http://localhost:8081/api
 ```
-Результат - успішна конвертація зображення в asciart.
+Результат - успішна конвертація зображення в asciiart.
 ![demo3](https://github.com/user-attachments/assets/4851b79a-5d75-4c7c-9a5a-2179b3d41339)
 
 
